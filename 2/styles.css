@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Share Tech', sans-serif;
+    background: linear-gradient(120deg, #fd9e9e, #ffb347, #f9ff85);
+  }
+  
+  header {
+    background-color: #8B0000; /* Rojo oscuro */
+    color: #FFF;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .title {
+    margin: 0;
+    color: #FFF;
+    font-size: 54px;
+  }
+  
+  nav {
+    background-color: #ffffff00; /* Marrón claro */
+    color: #FFF;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+  }
+  
+  section {
+    /*background-color: #FFF;*/
+    padding: 50px;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content-left {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .content-left img {
+    max-width: 350px;
+    border: 5px solid #8B0000; /* Rojo oscuro */
+    border-radius: 50%;
+    animation: scale 2s ease-in-out infinite;
+  }
+
+  @keyframes scale {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+  }
+
+  
+  .content-right {
+    flex: 1;
+    text-align: center;
+  }
+
+  @keyframes glow {
+    0% { text-shadow: 0 0 5px #fff; }
+    50% { text-shadow: 0 0 20px #fff, 0 0 30px #00b7ff; }
+    100% { text-shadow: 0 0 5px #fff; }
+  }
+  
+  .content-right h2 {
+    margin-top: 0;
+    animation: glow 3s ease-in-out infinite;
+  }
+  
+
+  .footer {
+    background: rgb(0, 0, 0); /* Fondo negro */
+    color: #FFF;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .footer-content {
+    background: rgb(0, 0, 0); /* Fondo negro */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    flex: 1 1 300px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #FFF;
+  }
+  
+  .footer-section p,
+  .footer-section ul {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #FFF;
+  }
+  
+  .footer-section ul {
+    padding-left: 20px;
+  }
+  
